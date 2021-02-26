@@ -1,0 +1,61 @@
+/* resetando as tags abaixo */
+body, h1, h2, ul, li { 
+	margin: 0px;
+	padding: 0px;
+}
+
+/* removendo qualquer style da lista */
+ul {
+	list-style: none;
+}
+
+/* aplicando em todos os elementos o border-box.
+	 ele faz com que meus elementos tenham realmente o width/height real definido.
+*/
+* {
+	box-sizing: border-box;
+}
+
+/* o liner-gradient possibilita tornar meu background gradient.
+   podemos ler esses paramêtros como: para a direita, aplica uma cor até os 
+	 30% da pagina, após isso, começa a aplicar a outra cor começando nos 30% da página.
+*/
+body {
+	background: linear-gradient(to right, #1a1a1a 30%, #ffffff 30%);
+	font-family: "Noto Serif";
+}
+
+#app {
+	padding: 0px 80px;
+}
+
+/* com o max-width é possível travar a largura de um elemento 
+   na margem estou dando 100px para o topo, auto para as laterais e 0px
+	 para o bottom
+*/
+.product-list {
+	max-width: 900px;
+	margin: 100px auto 0 auto;
+}
+
+.product-item {
+	display: flex;
+	align-items: center;
+	margin-bottom: 40px;
+	background: #ffffff;
+	box-shadow: 0 0 2rem rgba(0, 0, 0, .1);
+}
+
+.product-img {
+	max-width: 400px;
+	margin-right: 40px;
+}
+
+.product-name {
+	font-size: 3rem;
+	line-height: 1;
+}
+
+.product-price {
+	color: rgba(0, 0, 0, .5);
+}
