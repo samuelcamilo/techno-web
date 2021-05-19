@@ -1,20 +1,20 @@
 {
   "id": 4,
-  "nome": "Speaker",
-  "preco": 599,
-  "descricao": "Todas estas questões, devidamente ponderadas, levantam dúvidas sobre se a necessidade de renovação processual causa impacto indireto na reavaliação do orçamento setorial.",
-  "estoque": 3,
+  "name": "Speaker",
+  "price": 599,
+  "description": "Todas estas questões, devidamente ponderadas, levantam dúvidas sobre se a necessidade de renovação processual causa impacto indireto na reavaliação do orçamento setorial.",
+  "stock": 3,
   "img": "./api/produtos/speaker/speaker-foto.jpg",
   "reviews": [
     {
-      "nome": "Rogério",
-      "estrelas": 5,
-      "descricao": "Gostei muito do produto, atendeu todas as minhas necessidades."
+      "name": "Rogério",
+      "star": 5,
+      "description": "Gostei muito do produto, atendeu todas as minhas necessidades."
     },
     {
-      "nome": "Nathália",
-      "estrelas": 4,
-      "descricao": "Gostei, mas o preço poderia ser melhor."
+      "name": "Nathália",
+      "star": 4,
+      "description": "Gostei, mas o preço poderia ser melhor."
     }
   ]
 }
